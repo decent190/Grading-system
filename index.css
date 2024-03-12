@@ -1,0 +1,19 @@
+div{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    background-color: beige;
+    padding: 8px 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}
+input{
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+p{
+    font-size: 25px;
+}
