@@ -30,4 +30,6 @@ function check() {
             result.innerHTML="invalid"
             result.style.color="brown"
           }
+
+          score.value = " "
         }
