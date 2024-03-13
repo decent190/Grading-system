@@ -6,7 +6,10 @@ function check() {
   var song4 = new Audio("Audio/Black-Sherif-Soja-(TrendyBeatz.com).mp3")
   var song5 = new Audio("Audio/DJ_Cora_-_Metro_Beat_Jago.mp3")
      score.value
-          if (score.value <= 39 && score.value >=0 ) {
+          if (score.value == ""){
+result.innerHTML ="Input Your Score"
+      }
+     else if (score.value <= 39 && score.value >=0 ) {
              result.innerHTML = "fail😥😭"
              result.style.color= "red"
              song2.play()
