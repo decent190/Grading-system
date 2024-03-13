@@ -2,6 +2,7 @@ div{
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    
 }
 button{
     background-color: beige;
@@ -17,6 +18,8 @@ input{
 }
 p{
     font-size: 30px;
-    
-    
+}
+h1{
+    color: blue;
+
 }

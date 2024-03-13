@@ -1,5 +1,4 @@
 
-
 function check() {
      score.value
           if (score.value <= 39 && score.value >=0 ) {
@@ -9,6 +8,7 @@ function check() {
             else if(score.value >=40 && score.value < 45 ) {
              result.innerHTML = "pass🙄🙄"
              result.style.color= "black"
+             
           }
            else if (score.value >=45 && score.value < 50 ) {
              result.innerHTML = "average😚😙"
@@ -27,7 +27,7 @@ function check() {
              result.style.color= "green"
           }
           else{
-            result.innerHTML="invalid"
+            result.innerHTML="invalid📌"
             result.style.color="brown"
           }
 
